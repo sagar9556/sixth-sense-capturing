@@ -1,0 +1,532 @@
+    1  dir
+    2  sudo apt-get update
+    3  exit
+    4  sudo apt-get update
+    5  exit
+    6  sudo apt-get update
+    7  sudo apt-get upgrade
+    8  clear
+    9  exit
+   10  sudo apt-get install network-manager-openvpn
+   11  sudo apt-get update
+   12  clear
+   13  wget -O libudev0_175-i386_NoobsLab.com.deb http://goo.gl/8hrxx
+   14  clear
+   15  exit
+   16  sudo apt-get install openvpn bridge-utils
+   17  sudo apt-get update
+   18  exit
+   19  sudo apt-get install openvpn bridge-utils
+   20  sudo apt-get update
+   21  sudo apt-get upgrade
+   22  sudo apt-get update
+   23  sudo apt-get install openvpn
+   24  clear
+   25  exit
+   26  sudo apt-get install vlc
+   27  dir
+   28  ls
+   29  cd Desktop
+   30  \ls
+   31  cd Linux
+   32  ls
+   33  sudo apt-get install openvpn
+   34  sudo apt-get install build-essential
+   35  sudo apt-get update
+   36  clear
+   37  sudo apt-get update
+   38  exit
+   39  sudo apt-get update
+   40  exit
+   41  sudo apt-get install vlc
+   42  sudo apt-get update
+   43  clear
+   44  sudo apt-get upgrade
+   45  exit
+   46  sudo apt-get install openvpn
+   47  exit
+   48  ls
+   49  cd etc
+   50  cd /etc
+   51  ls
+   52  sudo chmod 777 openvpn
+   53  cd
+   54  exit
+   55  ls
+   56  cd
+   57  cd Desktop
+   58  ls
+   59  cd Linux
+   60  ls
+   61  cd TorVPN
+   62  ls
+   63  cd'/home/thethirdeye/Desktop/Linux/TorVPN' 
+   64  cd '/home/thethirdeye/Desktop/Linux/TorVPN' 
+   65  sudo mv TorVPN/* /etc.openvpn
+   66  cd Desktop/Linux
+   67  cd
+   68  cd Desktop
+   69  cd Linux
+   70  mv TorVPN/* /etc/openvpn
+   71  ls
+   72  cd TorVPN
+   73  ls
+   74  clear
+   75  cs
+   76  cd
+   77  cd Desktop
+   78  cd etc
+   79  cd /etc
+   80  cd openvpn
+   81  ls
+   82  clear'
+   83  exit
+   84  cd /etc
+   85  cd openvpn
+   86  ls
+   87  ping torvpn-thethirdeye.ovpn
+   88  sudo apt-get install v
+   89  ping torvpn-thethirdeye.ovpn
+   90  sudo apt-get update
+   91  sudo apt-get upgrade
+   92  sudo apt-get install vlc
+   93  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+   94  exit
+   95  sudo apt-get upgrade
+   96  sudo dpkg --configure -a
+   97  sudo apt-get upgrade
+   98  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+   99  sudo
+  100  \sudo -d
+  101  \sudo -D
+  102  cd
+  103  cd /etc
+  104  ls
+  105  sudo gedit fstab
+  106  cd /etc
+  107  ls
+  108  sudo gedit fstab
+  109  ls
+  110  ed /etc
+  111  cd etc
+  112  cd /etc
+  113  ls
+  114  cd dev
+  115  cd /dev
+  116  ls
+  117  exit
+  118  sudo apt-get install libtiff4-dev libjpeg-dev libjasper-dev
+  119  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  120  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-
+  121  exit
+  122  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  123  exit
+  124  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  125  sudo apt-get install libtiff4-dev libjpeg-dev libjasper-dev
+  126  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  127  cvs -d:pserver:anonymous@opencvlibrary.cvs.sourceforge.net:/cvsroot/opencvlibrary
+  128  login
+  129  cd
+  130  root
+  131  cd root
+  132  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  133  ls
+  134  cd /etc
+  135  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  136  cd
+  137  exit
+  138  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  139  exit
+  140  sudo apt-get update
+  141  cd /Desktop
+  142  ls
+  143  ./armc
+  144  cd
+  145  ./armc
+  146  cd Desktop
+  147  ./armc
+  148  sudo -i
+  149  cd
+  150  ./armc
+  151  sudo ./armc
+  152  sudo
+  153  sudo -i
+  154  ls
+  155  armc
+  156  g++ -o a Romil.c
+  157  ls
+  158  cd Desktop
+  159  ls
+  160  g++ -o a Romil.c
+  161  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22- dev libxine-dev libv4l-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+  162  sudo apt get install
+  163  sudo apt get update
+  164  sudo apt- get update
+  165  sudo apt-get update
+  166  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine-dev libv4l-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+  167  sudo apt-get update
+  168  fgfdggfgfgfgf
+  169  sudo apt-get install tightvcnserver
+  170  sudo apt-get install tightvncserver
+  171  vncserver :1
+  172  ifconfig
+  173  cd /home
+  174  ls
+  175  cd thethirdeye
+  176  cd /home
+  177  cd /thethirdeye
+  178  ls
+  179  cd ~thethirdeye
+  180  ls
+  181  cd home
+  182  cd /home
+  183  cd
+  184  cd /home/thethirdeye
+  185  ls
+  186  cd ..
+  187  cd /home/thethirdeye
+  188  cd /home
+  189  ls
+  190  cd /thethirdeye
+  191  cd thethirdeye
+  192  ls
+  193  cd .config
+  194  mkdir autostart
+  195  ls
+  196  cd autostart
+  197  gnome tightvnc.desktop
+  198  gedit tightvnc.desktop
+  199  sudo reboot
+  200  top
+  201  ifconfig
+  202  vncserver :1
+  203  ifconfig
+  204  ls
+  205  cd Desktop
+  206  ls
+  207  gcc Romil.c -o Test
+  208  g++ Romil.c -o Test
+  209  gcc Romil.c -o Test
+  210  ./Test
+  211  sudo apt-get install build-essential checkinstall cmake pkg-config yasm
+  212  sudo apt-get install libtiff4-dev libjpeg-dev libjasper-dev
+  213  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine-dev libv4l-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+  214  sudo apt-get update
+  215  sudo apt-get upgrade
+  216  sudo apt-get install libtiff4-dev libjpeg-dev libjasper-dev
+  217  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine-dev libv4l-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+  218  sudo apt-get install checkinstall gir1.2-gst-plugins-base-0.10 gir1.2-gstreamer-0.10 libgstreamer-plugins-base0.10-dev libgstreamer0.10-dev libslang2-dev libxine-dev libxine1-bin libxml2-dev
+  219  sudo apt-get install python-dev python-numpy
+  220  sudo apt-get install libtbb-dev
+  221  sudo apt-get install libqt4-dev libgtk2.0-dev
+  222  sudo apt-get install libgtk2.0-dev libqt4-dev
+  223  ls
+  224  cd Downloads
+  225  ls
+  226  tar xvzf opencv-2.4.6.1.tar.gz
+  227  tar -xvzf opencv-2.4.6.1.tar.gz
+  228  ls
+  229  cd ..
+  230  ls
+  231  tar -xvzf opencv-2.4.6.1.tar.gz
+  232  ls
+  233  cd opencv-2.4.6.1
+  234  ls
+  235  mkdir build
+  236  ls
+  237  cd build
+  238  ls
+  239  sudo apt-get install cmake-gui
+  240  cmake-gui
+  241  make
+  242  sudo make install
+  243  ls
+  244  cd ..
+  245  cd
+  246  ls
+  247  cd etc
+  248  ls
+  249  sudo gedit /etc/ld.so.conf.d/opencv.conf
+  250  sudo ldconfig
+  251  ls
+  252  sudo gedit /etc/bash.bashrc
+  253  ls
+  254  exit
+  255  sudo apt-get install codeblocks
+  256  ls
+  257  cd OpenCV_Projects
+  258  ls
+  259  cd CamIp
+  260  ls
+  261  cd main.cpp
+  262  g++ 'pkg-config --cflags --libs opencv' -o main main.cpp
+  263  g++ `pkg-config --cflags --libs opencv` -o main main.cpp
+  264  ls
+  265  cd OpenCV_Projects
+  266  ls
+  267  cd CamIp
+  268  ls
+  269  g++ `pkg-config --cflags --libs opencv` -o main main.cpp
+  270  gcc `pkg-config --cflags opencv` main.cpp -o mains `pkg-config --libs opencv`
+  271  ./mains
+  272  sudo apt-get install vlc browser-plugin-vlc
+  273  ls
+  274  gcc beep.c -o beep
+  275  ./beep
+  276  ls
+  277  ./beep
+  278  sudo ./beep
+  279  git init
+  280  sudo apt-get instal git-core
+  281  sudo apt-get install git-core
+  282  git init
+  283  ls
+  284  ifconfig
+  285  cd opt/
+  286  ls
+  287  cd 
+  288  ls
+  289  sudo
+  290  sudo -i
+  291  sudo apt-get install vncserver
+  292  sudo apt-get install vnc4server
+  293  sudo apt-get install gnome-core
+  294  sudo apt-get install vnc4server
+  295  sudo apt-get install gnome-core
+  296  sudo apt-get update
+  297  top
+  298  vncserver :1
+  299  ifconfig
+  300  ls
+  301  ifconfig
+  302  vncserver :1
+  303  ifconfig
+  304  clear
+  305  ifconfig all
+  306  ifconfig
+  307  ls
+  308  exit
+  309  vncserver :1
+  310  ifconfig
+  311  close vnc
+  312  ls
+  313  vncserver :1
+  314  gedit
+  315  vncserver :1
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd thethirdeye
+  320  ls
+  321  cd .config
+  322  ls
+  323  cd autostart
+  324  ls
+  325  cd tightvnc.desktop
+  326  gedit tightvnc.desktop
+  327  sudo reboot
+  328  vinav babbubhai patel
+  329  sbit
+  330  hello
+  331  exit
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd ..
+  336  ls
+  337  exit
+  338  sudo apt-get install alien dpkg-dev debhelper build-essential
+  339  sudo apt-get install prizeplayer
+  340  sudo apt-get install preziplayer
+  341  sudo apt-get update
+  342  sudo apt-get install weborf
+  343  sudo apt-get install zenity weborf zip unzip gettext
+  344  sudo update-alternatives --list x-www-browser
+  345  exit
+  346  ls
+  347  cd Downloads
+  348  ls
+  349  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  350  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  351  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  352  vncserver :1
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd thethirdeye
+  357  ls
+  358  ./config
+  359  cd ./config
+  360  ls
+  361  ./config
+  362  ls
+  363  history > test
+  364  gedit history
+  365  gedit test
+  366  ls
+  367  cd .config
+  368  ls
+  369  cd autostart
+  370  ls
+  371  cd tightvnc.desktop
+  372  gedit tightvnc.desktop
+  373  ls
+  374  cd .ocnfig
+  375  cd .config
+  376  ls
+  377  cd autostart
+  378  ls
+  379  gedit tightvnc.desktop
+  380  gedit test
+  381  history > test
+  382  gedit test
+  383  exit
+  384  ifconfig
+  385  esit
+  386  exit
+  387  erver :1
+  388  vncserver :1
+  389  cd /home/thethirdeye/
+  390  cd .config
+  391  mkdir autostart
+  392  cd autostart/
+  393  gnome tightvnc.desktop
+  394  gedit tightvnc.desktop
+  395  sudo apt-get install teamviewr4
+  396  sudo apt-get install teamviewer4
+  397  bye
+  398  close
+  399  exit
+  400  uname -a
+  401  sudo apt-get build-dep wine1.3
+  402  udo apt-get build-dep wine1.3
+  403  teamviewer --daemon start
+  404  clc
+  405  clear
+  406  history > test
+  407  gedit test
+  408  cd desktop
+  409  cd Desktop
+  410  file:///home/thethirdeye/Downloads/teamviewer_linux(1).deb 
+  411  sudo dpkg -i teamviewer_linux(1).deb
+  412  sudo dpkg -i teamviewer_linux.deb
+  413  sudo dpkg -i teamviewer_linux_x64.deb
+  414  dpkg --add-architecture i386
+  415  thethirdeye
+  416  sudo dpkg --add-architecture i386
+  417  sudo dpkg --remove teamviewer
+  418  sudo dpkg --purge teamviewer
+  419  sudo dpkg -i teamviewer_linux.deb
+  420  sudo dpkg --i teamviewer_linux.deb
+  421  wget http://www.teamviewer.com/download/teamviewer_linux.deb
+  422  sudo apt-get install wine ; rm -R /tmp/teaminstall/ ; mkdir /tmp/teaminstall/ && cd /tmp/teaminstall && p=$(uname -p) && if [$p="x86_64"] ; then wget -c http://www.teamviewer.com/download/teamviewer_linux_x64.deb ; else wget -c http://www.teamviewer.com/download/teamviewer_linux.deb ; fi ; chmod +x /tmp/teaminstall/teamviewer_linux* && sudo /tmp/teaminstall/teamviewer_linux*
+  423  clear
+  424  uname -a
+  425  lsb_release -a
+  426  dpkg --print-architecture
+  427  sudo apt-get install ia32-libs
+  428  sudo apt-get update
+  429  cd
+  430  winecnfg
+  431  winecfg
+  432  ppa:ubuntu-wine/ppa
+  433  cd
+  434  cd ..
+  435  close
+  436  exit
+  437  winecfg
+  438  gedit >edit
+  439  gedit test\
+  440  gedit test
+  441  g++ -o a Romil.c
+  442  exit
+  443  g++ -o a Romil.c
+  444  g++ -o a Romil.cpp
+  445  gedit test
+  446  gedit hostory
+  447  gedit history
+  448  sudo add-apt-repository ppa:ubuntu-wine/ppa
+  449  uname -a
+  450  sudo apt-get update
+  451  sudo apt-get upgrade
+  452  exit
+  453  git clone  git://git.denx.de/u-boot.git
+  454  ls
+  455  cd ..
+  456  os
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd ..
+  461  cd
+  462  ls
+  463  cd thethirdeye
+  464  ls
+  465  cd ..
+  466  ls
+  467  cd thethirdeye
+  468  ls
+  469  mkdir kinect
+  470  cd kinect
+  471  ls
+  472  git clone git://github.com/OpenNI/OpenNI.git
+  473  exit
+  474  ls
+  475  cd Downloads
+  476  ls
+  477  wget https://simple-openni.googlecode.com/svn/trunk/SimpleOpenNI-2.0/platform/linux/installLinuxRules.sh
+  478  wget https://simple-openni.googlecode.com/svn/trunk/SimpleOpenNI-2.0/platform/linux/primesense-usb.rules
+  479  rm
+  480  ls
+  481  rm --
+  482  help
+  483  clear
+  484  help
+  485  echo
+  486  help echo
+  487  echo
+  488  echo clear
+  489  clear echo
+  490  echo help
+  491  help echo
+  492  exit help
+  493  sudo apt-get 
+  494  als
+  495  ls
+  496  cd D]
+  497  ls
+  498  cd Downloads
+  499  ls
+  500  sudo apt-get update
+  501  sudo apt-get install git-core
+  502  ls
+  503  cd 
+  504  ls
+  505  cd OpenCV_Projects
+  506  ls
+  507  mkdir theThirdEye
+  508  ls
+  509  cd theThirdEye
+  510  ls
+  511  git clone https://github.com/sagar9556/theThirdEye.git
+  512  git remote add origin  https://github.com/sagar9556/theThirdEye.git
+  513  git remote add origin https://github.com/sagar9556/theThirdEye.git
+  514  git push origin master
+  515  git status
+  516  ls
+  517  git checkout master
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd SixthSense
+  522  ls
+  523  exit
+  524  history >test
+  525  gedit test
+  526  ls
+  527  cd OpenCV_Projects/
+  528  ls
+  529  cd SixthSense/
+  530  ls
+  531  gedit test
+  532  history>test
