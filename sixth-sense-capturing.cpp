@@ -1,4 +1,10 @@
-// Red_Ball_Detectino.cpp
+/*
+*
+*
+Authored By Sagar Patel
+*
+*
+*/
 
 // OpenCV header files
 #include "opencv/cvaux.h"
@@ -10,8 +16,6 @@
 //#include<conio.h>
 #include<stdlib.h>
 #include "iostream"
-
-// DLL files fro Console Audio
 
 using namespace::std;
 
