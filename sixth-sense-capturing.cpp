@@ -13,14 +13,39 @@ Authored By Sagar Patel and Gunjan Gupta
 
 // C++ Header files
 #include<stdio.h>
+#include<time.h>
+#include<string.h>
 //#include<conio.h>
 #include<stdlib.h>
 #include "iostream"
 
+// DLL files fro Console Audio
+
 using namespace::std;
+
+
+IplImage* crop( IplImage* src,  CvRect roi)
+{
+
+  // Must have dimensions of output image
+  IplImage* cropped = cvCreateImage( cvSize(roi.width,roi.height), src->depth, src->nChannels );
+
+  // Say what the source region is
+  cvSetImageROI( src, roi );
+
+  // Do the copy
+  cvCopy( src, cropped );
+  cvResetImageROI( src );
+
+  return cropped;
+}
+
 
 int main(int argc, char* argv[])
 {
+
+	int x1,y1,x2,y2;		//This are the co-ordinates for cropping an image (x1,y1) and (x2,y2)
+	
 	CvSize size640x480 = cvSize(640, 480);		//Makeing window of 640 * 480
 
 	CvCapture* p_capwebcam;			// Webcam assigned to this variable
@@ -78,7 +103,7 @@ int main(int argc, char* argv[])
 		**********************************************/
 
 		cvInRangeS(p_imgOriginal,
-				   CV_RGB(  0,  0,180),
+				   CV_RGB(  0,  0,130),
 				   CV_RGB(100,100,255),
 				   p_imgProcessed);
 
@@ -126,6 +151,14 @@ int main(int argc, char* argv[])
 			//////////// Beep sound for blue color
 			if(i == p_seqCircles->total - 1)
 			{
+					x2 = (int)p_fltXYRadius[0];
+					y2 = (int)p_fltXYRadius[1];
+						 //x2 = (int) (p_fltXYRadius[0]- p_fltXYRadius[2]);		// Blue circle X cordinate
+						 //y2 = (int) (p_fltXYRadius[1] - p_fltXYRadius[2]);		// Blue circle Y cordinate
+						 if (x2 < 0)										// If Assertion occures then 0 as X cordinate
+							 x2 = 0;
+	              	 	 if (y2 < 0)										// If Assertion occures then 0 as Y cordinate
+							 y2 = 0;
 	              	 	 j_b = j_b+1;
 	                 	 flag_b = flag_b + 1;
 			}
@@ -162,7 +195,7 @@ int main(int argc, char* argv[])
 
 
 		cvInRangeS(p_imgOriginal,
-				   CV_RGB(180,  0,  0),
+				   CV_RGB(115,  0,  0),
 				   CV_RGB(255,100,100),
 				   p_imgProcessed);
 
@@ -210,6 +243,15 @@ int main(int argc, char* argv[])
 			//////////// Beep sound for Green color
 			if(i == p_seqCircles->total - 1)
 				{
+					x1 = (int)p_fltXYRadius[0];
+					y1 = (int)p_fltXYRadius[1];
+					//x1 = (int)(p_fltXYRadius[0]+p_fltXYRadius[2]);		//	Red circle X cordinate
+					//y1 = (int)(p_fltXYRadius[1]+p_fltXYRadius[2]);		//	Red circle Y cordinate
+				if (x1>=640)		// If Assertion occures then maximum width
+					x1 = 640;
+						
+				if (y1 >= 480)		// If Assertion occures then maximum height
+					y1 = 480;
                     j_p = j_p + 1;
                     flag_p = flag_p + 1;
 				}
@@ -229,10 +271,51 @@ int main(int argc, char* argv[])
         {
             if(j_p >= 4 && j_b >=4)
             {
-                cvSaveImage("LinuxGunjSag.jpg",p_imgOriginal);
-                // Crop the captured image
-		printf("Going Bro\n");
-		goto exitBro;
+		//For Saving 3 Pics creating an exit condition
+		static int exitcond =0;
+		exitcond++;
+		//For adding date and time on file name so they differ from each other
+		time_t now = time(0);
+		struct tm tstruct;
+		char buf[80];
+		tstruct = *localtime(&now);
+		strftime(buf ,sizeof(buf) ,"%Y_%m_%d_%H_%M_%S" , &tstruct);
+		//cout<<buf <<endl;
+
+		char str_p[800] = "";
+		strcat(str_p , "/home/thethirdeye/Desktop/S/Captured Images/PandaCapture");
+		strcat(str_p ,buf);
+		strcat(str_p , ".jpg");
+
+
+	// 00000001 Changes by Sagar Patel for Cropping Begins
+
+		CvRect myRect;
+		int width = x2-x1;
+		int height = y2-y1;
+	        int x = x1;
+	        int y = y1;
+		if(width <= 0)
+			width = 640-x1;
+		if(height <= 0)
+			height = 480-y1;
+		cvSetImageROI(p_imgOriginal, cvRect(x,y,width,height));
+		myRect = cvRect(x,y,width,height) ;
+
+		IplImage* p_cropped = crop (p_imgOriginal , myRect);
+           cvSaveImage(str_p,p_cropped);
+//           cvSaveImage(str_p,p_imgOriginal);
+                //cvSaveImage(str_p, p_imgOriginal);
+    // 00000001 Changes by Sagar Patel for Cropping Ends
+
+
+
+        cout<<"Image "<< exitcond << " saved and it is synchronisizng.. "<<endl;
+				// Crop the captured image
+	//	printf("Going BroBro\n");
+
+		if ( exitcond == 3)
+			goto exitBro;
                 j_p = 0;
                 j_b = 0;
                 flag_p = 0;
